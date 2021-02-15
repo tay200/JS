@@ -10,13 +10,15 @@
   <h1><strong>무작위 번호 추출기</strong</h1>
   아래 입력된 숫자 범위 내에서 겹치지 않는 숫자를 무장귀 추출합니다.
   <form name = "in_form" method="POST">
-    <div>
+    <p>
       숫자 범위:
       <input type = number name="startNum"> ~ <input type = number name="endNum">
-    </div>
-    <div>
+    </p>
+    <p>
       추출 숫자의 갯수:
       <input type = number name="selectNum"> <input type=button value="추첨하기" onclick="init()" >
-    </div>
+    </p>
+  </form>
+    <p id="console"></p>
 </body>
 </html>
